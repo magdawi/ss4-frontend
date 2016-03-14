@@ -1,0 +1,17 @@
+body{
+  font-family: Arial;
+  background-color: #DDD;
+  text-align:center;
+}
+
+img{
+  width: 500px;
+}
+
+.pizza{
+  margin: 50px 0;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #DDD;
+}
