@@ -1,0 +1,38 @@
+<h1>Pizza Pizza :D</h1>
+
+
+<!-- ue01.1 -->
+<!--
+{{#each model as |pizza|}}
+  <div class="pizza">
+      <h2>### {{pizza.title}} ###</h2>
+      <img src="{{pizza.image}}">
+      <p>
+        <strong>Toppings:</strong> <br> {{pizza.toppings}}
+      </p>
+      <p>
+        <strong>Preis:</strong>  <br> {{pizza.price}}
+      </p>
+      <p>
+        <strong>Größe:</strong>  <br> {{pizza.size}}
+      </p>
+  </div>
+{{/each}}
+-->
+
+<!-- ue01.2 -->
+<h3>Pizza ordered:</h3>
+<p>
+  <span id="Margherita">0</span> Magrherita<br>
+  <span id="Diavolo">0</span> Diavolo<br>
+  <span id="Hawaii">0</span> Hawaii <br>
+  <span id="Salami">0</span> Salami <br>
+</p>
+
+
+<ul>
+  {{#each model as |pizza|}}
+        {{#pizza-style pizza=pizza}}
+        {{/pizza-style}}
+  {{/each}}
+</ul>

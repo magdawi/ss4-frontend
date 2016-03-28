@@ -4,11 +4,24 @@ body{
   text-align:center;
 }
 
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 75px 0;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 img{
-  width: 500px;
+  max-width: 250px;
+  max-height: 154px;
 }
 
 .pizza{
+  vertical-align: top;
   margin: 50px 0;
   padding: 30px;
   border-radius: 5px;
