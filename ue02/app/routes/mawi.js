@@ -30,6 +30,7 @@ var pizzas = [{
   image: 'http://bellapizzeria.at/wp-content/uploads/2015/12/salami-pizza.png'
 }];
 
+
 export default Ember.Route.extend({
    model() {
     return pizzas;
